@@ -1,0 +1,105 @@
+body {
+    background-color: #D4EAC8;
+}
+
+
+h1 {
+    text-align: center;
+    color: #484538;
+}
+
+label {
+    color: #484538;
+    display:inline-block;
+    margin: 10px;
+    font-size: 20px;
+}
+
+#generatorBox {
+    text-align: center;
+}
+
+#generatorBox input {
+    display: block;
+    margin: 0 auto;
+}
+
+#memeZone, img {
+    height: 430px;
+    width: 430px;
+}
+
+.topZone {
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    width: 100%;
+    text-align: center;
+}
+
+.bottomZone {
+    bottom: 30px;
+    left: 0px;
+    z-index: 3;
+    width: 100%;
+    text-align: center;
+}
+
+.topZone, .bottomZone {
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    display: inline;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    /* -webkit-text-stroke: 1.5px black; */
+}
+
+.meme {
+    justify-content: center;
+    border: 0.08rem solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    height: 430px;
+    width: 430px;
+    margin: 30px;
+    display: inline-block;
+}
+
+input:not(button) {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: #9883E5;
+    width: 400px;
+    height: 50px;
+}
+
+::placeholder {
+    color: #FCD3DE;
+    font-size: 20px;
+    
+}
+
+#formBtn {
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #CAD49D;
+    color: #484538;
+}
+
+#formBtn:hover {
+    background-color: #FCD3DE;
+}
+
+/* #deleteBtn {
+    background-color: #9883E5;
+} */
+
+
+input[type="text"]
+{
+    font-size:24px;
+    color: #FCD3DE;
+}
